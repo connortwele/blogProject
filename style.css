@@ -7,5 +7,46 @@ body{
 }
 
 .posts{
-    bottom-border: 2px solid #797794;
+    border-bottom: 2px solid #797794;
 }
+
+img{
+    width: 522px;
+    height: auto;
+    box-shadow: -10px 9px 5px;
+    
+}
+
+p::first-letter{
+    text-transform: capitalize;
+}
+
+p{
+    font-family: 'David Libre', serif;
+    padding: 10px;
+}
+
+h2{
+    text-transform: capitalize;
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+.dateStyle{
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+nav{
+    background-color:#797794;
+}
+
+.hoverMe {
+    display: none;
+    background-color:#CCB8BE;
+    padding: 2;
+}
+
+.hoverThis:hover hoverMe{
+    display: block;
+}
+
+ 
